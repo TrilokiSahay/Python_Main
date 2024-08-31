@@ -9,15 +9,15 @@ import pandas as pd
 import os
 import json
 
-credential_path = "E:/python/google_Doc_AI/Json file google auth/silken-math-407910-d0b9438c6004.json"
+credential_path = "E:/python/Your.json file"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 folder = "E:\\python\\google_Doc_AI"
-file_path = "E:\\python\\google_Doc_AI\\IN104956.pdf"
+file_path = "E:\\56.pdf"
 
-project_id= 'silken-math-407910'
+project_id= 'si407910'
 location = 'us'
-processor_id = 'afec3f70ecec4b87'
+processor_id = 'afec3f7'
 mime_type = 'application/pdf'
 
 output_file_path = os.path.join(folder, "Output.txt")
